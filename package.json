@@ -19,13 +19,13 @@
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/jest": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "typescript": "latest",
-    "@types/jest": "latest",
     "jest": "latest",
+    "react-scripts": "^5.0.1",
     "ts-jest": "latest",
-    "react-scripts": "latest"
+    "typescript": "latest"
   },
   "jest": {
     "preset": "ts-jest",
