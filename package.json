@@ -30,5 +30,8 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "jsdom"
-  }
+  },
+  "author": "suiGn",
+  "license": "MIT",
+  "repoType": "NPM Package"
 }
