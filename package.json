@@ -31,6 +31,12 @@
     "preset": "ts-jest",
     "testEnvironment": "jsdom"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/GUI.git"
+  },
+  "homepage": "https://www.npmjs.com/package/this.gui",
+  "docs": "https://suiGn.github.io/GUI",
   "author": "suiGn",
   "license": "MIT",
   "repoType": "NPM Package"
