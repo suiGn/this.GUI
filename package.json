@@ -1,7 +1,7 @@
 {
   "name": "this.gui",
   "version": "0.0.2",
-  "description": "A reusable component library",
+  "description": "This Graphic User Interface. ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
