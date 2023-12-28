@@ -1,43 +1,31 @@
 {
   "name": "this.gui",
   "version": "0.0.2",
-  "description": "This Graphic User Interface. ",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "test": "jest",
-    "prepublish": "npm run build"
-  },
-  "dependencies": {
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
-    "@mui/icons-material": "latest",
-    "@mui/joy": "latest",
-    "@mui/material": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {
-    "@types/jest": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "jest": "latest",
-    "react-scripts": "^5.0.1",
-    "ts-jest": "latest",
-    "typescript": "latest"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "jsdom"
-  },
+  "description": "This Graphic User Interface.",
+  "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/suiGn/GUI.git"
+  },
+  "scripts": {
+    "build": "tsc"
   },
   "homepage": "https://www.npmjs.com/package/this.gui",
   "docs": "https://suiGn.github.io/GUI",
   "author": "suiGn",
   "license": "MIT",
-  "repoType": "NPM Package"
+  "repoType": "NPM Package",
+  "devDependencies": {
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "typedoc": "^0.25.4",
+    "typedoc-material-theme": "^1.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@mui/joy": "^5.0.0-beta.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
