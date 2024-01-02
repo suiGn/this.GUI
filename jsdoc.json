@@ -1,6 +1,6 @@
 {
   "source": {
-    "include": ["./src", "./src/index.ts"],
+    "include": ["./src", "./index.js"],
     "includePattern": "\\.(js|jsx|ts|tsx)$",
     "excludePattern": "(node_modules/|docs)"
   },
