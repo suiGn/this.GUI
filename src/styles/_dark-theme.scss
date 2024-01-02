@@ -1,0 +1,11 @@
+@use "@material/theme" with (
+  $primary: #bb86fc,
+  $secondary: #03dac6,
+  // Other color assignments for dark theme
+);
+
+// Override specific styles for dark mode if needed
+.my-custom-component {
+  background-color: #121212;
+  color: white;
+}
