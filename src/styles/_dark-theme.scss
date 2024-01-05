@@ -1,11 +1,13 @@
-@use "@material/theme" with (
-  $primary: #bb86fc,
-  $secondary: #03dac6,
-  // Other color assignments for dark theme
-);
+//dark-theme.scss
+:root[data-theme="dark"] {
+  --primary: #bb86fc;  // Dark theme primary color
+  --secondary: #03dac6; // Dark theme secondary color
+  // Add more custom properties as needed for the dark theme
+}
 
-// Override specific styles for dark mode if needed
+// You can now use these custom properties in other SCSS files
 .my-custom-component {
-  background-color: #121212;
+  background-color: var(--primary);
   color: white;
+  // Other styles for the dark theme
 }

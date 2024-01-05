@@ -1,5 +1,13 @@
-@use "@material/theme" with (
-  $primary: #6200ee,
-  $secondary: #03dac6,
-  // Other color assignments for light theme
-);
+//light theme
+:root[data-theme="light"] {
+  --primary: #6200ee; // Light theme primary color
+  --secondary: #03dac6; // Light theme secondary color
+  // Add more custom properties as needed for the light theme
+}
+
+// You can now use these custom properties in other SCSS files
+.my-custom-component {
+  background-color: var(--primary);
+  color: black;
+  // Other styles for the light theme
+}

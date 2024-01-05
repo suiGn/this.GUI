@@ -1,4 +1,16 @@
-.my-custom-component {
-    padding: 10px;
-    // Other common styles
-  }
+// Define default theme variables
+:root {
+  --primary: $primary-light;
+  --secondary: $secondary-light;
+  // ...other variables
+}
+
+// Import the specific theme styles
+@import 'dark-theme';
+@import 'light-theme';
+
+// Define common styles
+.my-element {
+  background-color: var(--primary);
+  // ... other common styles
+}
