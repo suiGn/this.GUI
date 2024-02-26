@@ -18,6 +18,7 @@
   "author": "suiGn",
   "license": "MIT",
   "repoType": "NPM Package",
+  "category": "dataformatter",
   "dependencies": {
     "material-components-web": "^14.0.0",
     "sass": "^1.69.6"
