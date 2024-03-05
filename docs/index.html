@@ -42,7 +42,7 @@
             
              
                 <a href="index.html">
-                    <h1 class="navbar-item">This.GUI</h1>
+                    <h1 class="navbar-item">this.GUI</h1>
                 </a>
             
         </div>
@@ -74,7 +74,7 @@
                     
                         <a
                             class="link user-link "
-                            href="https://github.com/suiGn/cleaker"
+                            href="https://github.com/suiGn/this.GUI"
                         >
                             Github
                         </a>
@@ -88,7 +88,7 @@
                     
                         <a
                             class="link user-link "
-                            href="https://www.neurons.me/this"
+                            href="https://www.neurons.me/all-this"
                         >
                             What is all.this?
                         </a>
@@ -145,14 +145,69 @@
 
 
     <section>
-        <article><p>Consistent Theming: By wrapping MUI or any other UI framework inside your GUI package, you can set a consistent theme, typography, and other styles that will be common across all the apps where you use this package. This ensures brand consistency.</p>
-<p>Custom Components: You can build upon MUI components to create higher-level components tailored for your needs. For instance, you might have a custom UserAvatar component that integrates with your user system or a DataGrid tailored for your backend's data format.</p>
-<p>Integrated Logic: The GUI package can contain not just visual components but also logic. For instance, a LoginForm component can have integrated authentication logic that talks to your backend directly. This simplifies the usage in actual apps.</p>
-<p>Utilities &amp; Helpers: Apart from components, you can also have utility functions and hooks. For instance, a useUser() hook that fetches and manages the user's state.</p>
-<p>Extendability: You can set up your GUI package in a way that while it provides a default theme and behavior, individual projects can customize or extend them as needed.</p>
-<p>Version Control: Changes in the UI/UX can be versioned. If you update a component's look or behavior in the GUI package and bump the version, you can choose when to adopt these changes in your various projects by updating the package version.</p>
-<p>Documentation: You can maintain a single documentation site/source for your custom GUI package, making it easier for your team (and potentially third-party developers) to understand and use your components.</p>
-<p>Dependency Management: With a single GUI package, you can manage the versions of MUI or other dependencies in one place. This can make updates and maintenance easier, especially if breaking changes are introduced in the UI libraries you depend on.</p></article>
+        <article><h1>This.GUI</h1>
+<p><code>this.gui</code> is a comprehensive UI toolkit for web development, providing both pre-styled components and customizable themes for building responsive and modern user interfaces for <a href="neurons.me/this">all.this</a>.</p>
+<h2>Installation</h2>
+<p>Install <code>this.gui</code> via npm:</p>
+<pre class="prettyprint source lang-shell"><code>npm install this.gui
+</code></pre>
+<p>this.gui serve a dual purpose: one as a utility provider for GUI-related functionalities across your technologies and another as a data provider for neural networks. Let's break down how this.gui could serve these two roles:</p>
+<p>GUI Provider (Utility Role): As a utility, this.gui can offer a consistent set of GUI components or services that other parts of your technology stack can use. This can include anything from standard UI elements to complex interaction patterns. By centralizing your GUI logic and components, you ensure consistency and reusability across your projects, which aligns well with it being categorized under utilities.</p>
+<p>Data Provider for Neural Networks (Data Role): The more intriguing role of this.gui involves transforming GUI interactions or states into data that can be fed into neural networks. This can be achieved in several ways, depending on what aspects of the GUI you wish to analyze or learn from:</p>
+<p>Interaction Data: Capturing user interactions with the GUI (clicks, navigation patterns, usage sequences, etc.) can provide valuable data for understanding user behavior or improving user experience.</p>
+<p>State Data: The state of the GUI at various points in time can offer insights into how users reach certain states, which can be used to optimize workflows or detect common issues.</p>
+<p>Visual Data: If the neural network is designed to work with visual data, screenshots or GUI element properties can be transformed into a format suitable for neural network input. This can be used for tasks like automated GUI testing, layout analysis, or even generating GUI designs.</p>
+<p>To facilitate these dual roles, your this.gui package might include different modules or subcomponents dedicated to each function. For instance, one module could focus on providing utility functions and components, while another could handle data extraction and transformation for neural network inputs.</p>
+<h2>Usage</h2>
+<p>Include <code>this.gui</code> styles and scripts in your project to utilize the library.</p>
+<h3>Including Styles</h3>
+<p>Link the <code>this.gui.css</code> in your HTML or import it in your JavaScript entry file:</p>
+<p>In HTML:</p>
+<pre class="prettyprint source lang-html"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;/node_modules/this.gui/dist/this.gui.css&quot;>
+</code></pre>
+<p>In JavaScript:</p>
+<pre class="prettyprint source lang-javascript"><code>import 'this.gui/dist/this.gui.css';
+</code></pre>
+<h3>Including Scripts</h3>
+<p>Reference the <code>this.gui.js</code> in your HTML or import it if you're using a module bundler:</p>
+<p>In HTML:</p>
+<pre class="prettyprint source lang-html"><code>&lt;script src=&quot;/node_modules/this.gui/dist/this.gui.js&quot;>&lt;/script>
+</code></pre>
+<p>In JavaScript:</p>
+<pre class="prettyprint source lang-javascript"><code>import 'this.gui';
+</code></pre>
+<h2>Themes</h2>
+<p><code>this.gui</code> offers light and dark themes that can be toggled using the <code>data-theme</code> attribute:</p>
+<pre class="prettyprint source lang-html"><code>&lt;body data-theme=&quot;dark&quot;>
+  &lt;!-- Content styled with the dark theme -->
+&lt;/body>
+</code></pre>
+<h2>Components</h2>
+<p>To use <code>this.gui</code> components, add the respective classes to your HTML elements:</p>
+<pre class="prettyprint source lang-html"><code>&lt;button class=&quot;this-gui-button&quot;>Click Me&lt;/button>
+&lt;div class=&quot;this-gui-card&quot;>
+  &lt;h3 class=&quot;this-gui-card-title&quot;>Card Title&lt;/h3>
+  &lt;p class=&quot;this-gui-card-content&quot;>Card content...&lt;/p>
+&lt;/div>
+</code></pre>
+<p>Refer to the official <a href="https://suign.github.io/GUI">documentation</a> for detailed usage instructions and component references.</p>
+<h2>Contribution</h2>
+<p>Contributions are welcome! To contribute to <code>this.gui</code>, please visit our <a href="https://github.com/suiGn/GUI">GitHub repository</a>.</p>
+<h2>License</h2>
+<p><code>this.gui</code> is available under the MIT license. See the LICENSE file for more info.</p>
+<h1>About All.This</h1>
+<h2>Modular Data Structures:</h2>
+<p><strong><a href="https://suign.github.io/this.me">this.me</a>  - <a href="https://suign.github.io/this.audio">this.audio</a> - <a href="https://suign.github.io/this.text">this.text</a> - <a href="https://suign.github.io/this.wallet">this.wallet</a> - <a href="https://suign.github.io/this.img">this.img</a> - <a href="https://suign.github.io/Pixels">this.pixel</a> - <a href="https://suign.github.io/be.this">be.this</a> - <a href="https://suign.github.io/this.DOM">this.DOM</a> - <a href="https://suign.github.io/this.env/">this.env</a> - <a href="https://suign.github.io/this.GUI">this.GUI</a> - <a href="https://suign.github.io/this.be">this.be</a> - <a href="https://suign.github.io/this.video">this.video</a> - <a href="https://suign.github.io/this.atom">this.atom</a> - <a href="https://suign.github.io/this.dictionaries/">this.dictionaries</a></strong></p>
+<p><strong>Each module</strong> in <strong><a href="https://neurons.me/all-this">all.this</a></strong> represents a specific <strong>datastructure</strong>. These classes encapsulate the functionalities and <strong>data specific to their domain.</strong></p>
+<h2><strong>Utils</strong></h2>
+<p><strong><a href="https://neurons.me/all-this">all.this</a></strong> not only aggregates these modules but also provides utilities to facilitate the integration, management, and enhancement of these data structures. <strong>For example:</strong></p>
+<p><em>The integration with <a href="https://suign.github.io/cleaker/">cleaker</a> ensures each module instance has a <strong>unique cryptographic identity</strong>, enhancing security and data integrity.</em></p>
+<h3>Neurons.me Ecosystem Glossary:</h3>
+<p>visit: <a href="https://suign.github.io/neurons.me/Glossary">Neurons.me Glossary</a></p>
+<p>Learn more at https://neurons.me</p>
+<p><strong>Author:</strong> SuiGn</p>
+<p><a href="https://neurons.me">By neurons.me</a></p>
+<img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="neurons.me logo" width="123" height="123" style="width123px; height:123px;"></article>
     </section>
 
 
