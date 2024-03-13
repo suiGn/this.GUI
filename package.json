@@ -1,6 +1,6 @@
 {
   "name": "this.gui",
-  "version": "0.0.52",
+  "version": "0.0.55",
   "description": "This Graphic User Interface.",
   "main": "index.js",
   "repository": {
